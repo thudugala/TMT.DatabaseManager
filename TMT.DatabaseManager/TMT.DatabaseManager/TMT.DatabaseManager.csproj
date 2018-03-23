@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Company>ththlk</Company>
+    <Authors>Tharindu Thudugala</Authors>
+    <RootNamespace>TMT.DatabaseManager</RootNamespace>
+    <Copyright>Copyright @ Tharindu Thudugala 2018</Copyright>
+    <PackageLicenseUrl>https://github.com/tmt242001/TMT.DatabaseManager/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/tmt242001/TMT.DatabaseManager</PackageProjectUrl>
+    <Description>MySQL Generic Select and Save statement genarator</Description>
+    <PackageIconUrl>https://github.com/tmt242001/TMT.DatabaseManager/raw/master/screenshots/tmtdatabasemanager.png</PackageIconUrl>
+    <PackageTags>.Net Standard 2, tmt, database</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
