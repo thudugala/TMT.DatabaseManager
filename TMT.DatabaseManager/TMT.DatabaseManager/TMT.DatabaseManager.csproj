@@ -11,6 +11,7 @@
     <Description>MySQL Generic Select and Save statement genarator</Description>
     <PackageIconUrl>https://github.com/tmt242001/TMT.DatabaseManager/raw/master/screenshots/tmtdatabasemanager.png</PackageIconUrl>
     <PackageTags>.Net Standard 2, tmt, database</PackageTags>
+    <version>1.0.0-alpha</version>
   </PropertyGroup>
 
   <ItemGroup>
